@@ -7,10 +7,19 @@ html {
     box-sizing: inherit;
 }
 
+.background {
+    background-image: url("./0000.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .container {
     max-width: 500px;
     margin: 0 auto;
-    margin-top: 200px;
     text-align: center;
     width: 100%;
     background-color: rgb(247, 118, 143);
