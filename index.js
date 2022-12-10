@@ -26,8 +26,8 @@
     }
 
     const calculateResult = (rate) => {
-        let amountElement = document.querySelector(".amount");
-        let resultElement = document.querySelector(".result");
+        let amountElement = document.querySelector(".js-amount");
+        let resultElement = document.querySelector(".js-result");
 
         if (amountElement.value >= 0) {
             resultElement.innerText = (amountElement.value * rate).toFixed(2);
